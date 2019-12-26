@@ -1,6 +1,6 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+This repo contains the code for an A* search faster route algorithm running io2d.
 
 <img src="map.png" width="600" height="450" />
 
@@ -29,6 +29,11 @@ git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-subm
 * IO2D
   * Installation instructions for all operating systems can be found [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
   * This library must be built in a place where CMake `find_package` will be able to find it
+############## IO2D considerations
+
+Getting Io2d is by far the most difficult aspect of setting up this build. I orginally used a windows machine but switched to using a ubuntu instance
+i ran on my windows machine with VcXsrv and Ubuntu, IO2D is much easier to install from the commandline.
+
 
 ## Compiling and Running
 
@@ -58,4 +63,3 @@ The testing executable is also placed in the `build` directory. From within `bui
 ```
 ./test
 ```
-
